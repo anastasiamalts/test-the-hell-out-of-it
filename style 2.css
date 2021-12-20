@@ -1,0 +1,30 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+main {
+    width: 400px;
+    background-color: lightgray;
+}
+article {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    border-bottom: black solid 1px; 
+}
+a { 
+    margin-left: 20px
+}
+.date {
+    min-width: 100px;
+}
+h1 {
+    margin:10px;
+    padding: 10px;
+
+}

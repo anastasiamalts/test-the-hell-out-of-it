@@ -1,0 +1,14 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .list-common li:first-child,
+.list-common li:last-child,  */
+.list-common li:nth-child(2n) {
+    font-style: italic;
+}
+li{transition: 0.5s;}
+li:hover {
+    color: red;
+    font-size: 20px;
+    
+}
